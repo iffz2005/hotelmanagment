@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <main>
+        <form>
+            <div>
+                <label for="name">Name : </label>
+                <input type="text" id="name" name="name" class="input" placeholder="  Name">
+            </div>
+            <div>
+                <label for="monu">Mobile No : </label>
+                <input type="number" id="monu" maxlength="10" minlength="10" class="input" placeholder="  Phone Number">
+            </div>
+            <div>
+                <label for="email">Email Id : </label>
+                <input type="email" id="email" name="email" class="input" placeholder="  Email">
+            </div>
+            <div class="date">
+                <div>
+                    <label for="sdate">Start Date : </label>
+                    <input type="date" id="sdate" name="sdate">
+                </div>
+                <div>
+                    <label for="edate">End Date : </label>
+                    <input type="date" id="edate" name="edate">
+                </div>
+            </div>
+            <div class="room">
+                <input type="radio" id="radio" name="radio">
+                <label for="radio">Room Only</label>
+            </div>
+            <div class="room">
+                <input type="radio" id="radio" name="radio">
+                <label for="radio">Room With Food</label>
+            </div>
+        </form>
+        <div class="button">
+            <button><a href="thankyou.html">Submit</a></button>
+        </div>
+    </main>
+
+</body>
+</html>
